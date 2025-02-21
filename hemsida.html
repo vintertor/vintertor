@@ -36,6 +36,10 @@
 
 <meta name="theme-color" content="#171715">
 <style>
+	.highlight {
+  color: yellow;
+}
+
 	html.wf-loading * {
     opacity: 0;
   }
@@ -150,8 +154,12 @@ body {
 </script><script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 
 <script>
-  var typed = new Typed(".typed-words", {
-  strings: ["I'm Tor", "I'm a designer", "I'm an expert"],
+var typed = new Typed(".typed-words", {
+  strings: [
+    "I'm Tor <span class='highlight'>Tor</span>",
+    "I'm a designer <span class='highlight'>designer</span>",
+    "I'm an expert <span class='highlight'>expert</span>"
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1500,
@@ -161,4 +169,5 @@ body {
   cursorChar: "|",
   attr: null,
 });
+
 </script></body></html>
