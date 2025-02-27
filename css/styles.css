@@ -12,6 +12,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+h1 span {
+  text-wrap: balance;
+}
+
 audio, canvas, progress, video {
   vertical-align: baseline;
   display: inline-block;
