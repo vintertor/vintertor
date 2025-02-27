@@ -12,17 +12,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.typed-text {
-    /* Your existing styles */
-}
-
-@media (max-width: 700px) {
-    .typed-words::before {
-        content: "\A"; /* Unicode for line break */
-        white-space: pre;
-    }
-}
-
 audio, canvas, progress, video {
   vertical-align: baseline;
   display: inline-block;
