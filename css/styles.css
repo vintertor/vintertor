@@ -13,9 +13,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .h0.typed-words {
-  min-height: 2.8em; /* Ensures space for two lines */
+  height: 3em; /* Adjust this value based on your font size */
+  overflow: hidden; /* Prevents layout shifting */
   display: flex;
-  align-items: center; /* Keeps text vertically centered */
+  align-items: center;
 }
 
 
