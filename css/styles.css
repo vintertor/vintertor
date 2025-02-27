@@ -12,6 +12,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+.typed-text { 
+    font-size: clamp(1rem, 1.2vw, 1.25rem); 
+}
+
 @media (max-width: 700px) {
     .h0.typed-words span:nth-child(2)::before {
         content: "\A";
