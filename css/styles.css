@@ -18,7 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         white-space: pre;
     }
     .h0.typed-words{
-      height: 400px; /* adjust as needed for smaller screens */
+      height: 180px; /* adjust as needed for smaller screens */
     }
 
 }
