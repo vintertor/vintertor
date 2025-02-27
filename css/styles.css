@@ -12,20 +12,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.h0.typed-words {
-    line-height: 1.5;
-    white-space: pre-wrap;
-    transition: height 0.3s ease-in-out; /* Add transition */
-    height: 50px; /* set initial height, adjust as needed */
-}
-
 @media (max-width: 700px) {
     .h0.typed-words span:nth-child(2)::before {
         content: "\A";
         white-space: pre;
     }
     .h0.typed-words{
-      height: 700px; /* adjust as needed for smaller screens */
+      height: 400px; /* adjust as needed for smaller screens */
     }
 
 }
