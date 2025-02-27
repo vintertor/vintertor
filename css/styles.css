@@ -12,8 +12,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-typewritten-text {
-    font-size: 1.2rem; /* Adjust this value as needed */
+.typed-text {
+    font-size: 1.5rem; /* Adjust as needed */
 }
 
 
