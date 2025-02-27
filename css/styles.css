@@ -12,13 +12,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.h0.typed-words {
-  height: 3em; /* Adjust this value based on your font size */
-  overflow: hidden; /* Prevents layout shifting */
-  display: flex;
-  align-items: center;
-}
-
 
 audio, canvas, progress, video {
   vertical-align: baseline;
