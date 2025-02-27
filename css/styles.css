@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .h0.typed-words {
-  text-wrap: balance;
+  min-height: 2.5em; /* Reserve space for two lines */
 }
 
 
