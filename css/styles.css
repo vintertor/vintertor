@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 #typed-strings {
-    min-height: 80px; /* Adjust this value as needed */
+    min-height: 280px;
 }
 
 audio, canvas, progress, video {
