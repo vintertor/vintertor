@@ -12,10 +12,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.h0.typed-words {
-  min-height: 2.5em; /* Reserve space for two lines */
+@media (max-width: 600px) { /* Adjust the width as needed */
+  .h0.typed-words::after {
+    content: "\00a0"; /* Non-breaking space */
+    display: block;
+    height: 1em; /* Adjust to match text height */
+    visibility: hidden; /* Keeps the space but hides content */
+  }
 }
-
 
 audio, canvas, progress, video {
   vertical-align: baseline;
