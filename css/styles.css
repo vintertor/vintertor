@@ -2503,7 +2503,7 @@ img {
 }
 
 .socialicon:hover {
-  color: #yellow;
+    color: var(--accent);
 }
 
 .socialicon:focus {
