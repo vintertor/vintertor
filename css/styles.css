@@ -8,52 +8,6 @@ body {
   margin: 0;
 }
 
-/* General styles for navigation container */
-.navcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #000; /* Adjust based on your site's background */
-}
-
-/* Styling for the Home button */
-.home-button {
-  display: inline-block;
-  padding: 8px 16px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff; /* White color to match other text */
-  border: 2px solid #fff; /* White border for outline effect */
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.home-button:hover {
-  background-color: #fff;
-  color: #000; /* Adjust hover text color if needed */
-}
-
-/* Styling for the LinkedIn icon container */
-.sociallinkscontainer {
-  display: flex;
-  align-items: center;
-}
-
-/* Ensure the LinkedIn icon aligns with the Home button */
-.linkediniconlinkblock {
-  margin-left: 20px; /* Adjust spacing as needed */
-}
-
-/* Optional: Adjust the size of the LinkedIn icon */
-.socialicon svg {
-  width: 24px;
-  height: 24px;
-  fill: #fff; /* White color to match the Home button */
-}
-
-
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
