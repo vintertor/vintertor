@@ -12,6 +12,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+#typed-strings {
+    min-height: 80px; /* Adjust this value as needed */
+}
+
 audio, canvas, progress, video {
   vertical-align: baseline;
   display: inline-block;
